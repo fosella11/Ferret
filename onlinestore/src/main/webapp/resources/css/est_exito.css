@@ -1,0 +1,75 @@
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body #panelsup h1 {
+	color: #ffffff;
+}
+
+body #panelsup{
+	border-style: outset;
+	border-width: 4px;
+	height: 20%;	
+	border-radius: .5em;
+	opacity: .8em;
+	color: #D0F5A9;
+	background: url("images/ftitulo.jpg");
+	opacity:0.9;
+}
+
+body table{
+	width: 20%;
+	height: 80%;
+	top: -40px; 
+	position: auto; 
+	z-index: auto;
+}
+
+body{
+	background: url("images/fondo.jpg");
+}
+
+
+#Table_02 #list{
+	display: inline;
+}
+
+
+#list li {
+	box-shadow: -5px 3px 5px 2px;
+	line-height: 40px;
+	margin: 12px;
+	margin-left: 28px;
+	border-style: outset; 
+	border-width: 4px;
+	text-align: center;
+	list-style: none;
+	background: url("images/ftitulo.jpg");
+	opacity:0.9;
+}
+
+#list li a {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#Table_01 {
+	border-style: outset;
+	border-radius: .4em; 
+	border-width: 4px;
+	width: 99.3%;
+	height: 80%;
+	float: right;
+}
+
+.frame-boton {
+	border-style: outset;
+	border-radius: .4em; 
+	border-width: 0px 0px 0px 4px;
+	height: 75%;
+	float: right;
+}

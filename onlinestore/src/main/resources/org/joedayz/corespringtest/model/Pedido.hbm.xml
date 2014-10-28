@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 24/02/2010 12:08:38 PM by Hibernate Tools 3.2.4.GA -->
+<hibernate-mapping>
+    <class name="org.joedayz.corespringtest.model.Pedido" table="pedido">
+        <id name="idPedido" type="java.lang.Integer">
+            <column name="ID_PEDIDO" />
+            <generator class="identity" />
+        </id>
+       
+       
+        
+       
+       
+        <property name="calle" type="string">
+            <column name="CALLE" length="50" not-null="true" />
+        </property>
+        <property name="code" type="string">
+            <column name="CODE" length="20" not-null="true" />
+        </property>
+        <property name="total" type="big_decimal">
+            <column name="TOTAL" precision="10" not-null="true" />
+        </property>
+        <property name="estado" type="string">
+            <column name="ESTADO" length="50" />
+        </property>
+    
+    	
+       <property name="producto1" type="string">
+            <column name="producto1" length="100" not-null="true" />
+        </property>
+        
+        <property name="producto2" type="string">
+            <column name="producto2" length="100" not-null="true" />
+        </property>
+       
+    
+    
+    
+    
+    </class>
+</hibernate-mapping>

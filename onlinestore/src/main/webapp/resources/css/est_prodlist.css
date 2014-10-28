@@ -1,0 +1,97 @@
+head title{
+	background-image: url("images/icono.ico");
+}
+
+
+body{
+	background: url("images/fondo.jpg");
+	text-align: center;
+}
+
+body header {
+	background: url("images/ftitulo.jpg");
+	border-radius: .5em;
+	font-family: "Arial";
+	font-size: 17px;
+	margin: 1;
+	color: #D8F6CE;
+}
+
+#producto table {
+	font-family: "Arial";
+	font-size: 25px;
+	margin: 12;
+	color: #D8F6CE;
+	display: block;
+	text-align: right;
+}
+
+#producto {
+	background-color: #29220A;
+	opacity: .8;
+	background-position: center;
+	border-radius: .7em;
+	display: block;
+
+}
+
+#bguardar{
+	border: rgb(#000000);
+	border-width: 5px;
+	color: #151515;
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+
+#beliminar{
+	border: rgb(#000000);
+	border-width: 5px;
+	color: #151515;
+	font-size: 20px;
+	cursor: pointer;
+	margin-bottom: 15px;	
+	margin-right: 12px;
+}
+
+#bcancelar{
+	border: rgb(#000000);
+	border-width: 5px;
+	color: #151515;
+	font-size: 20px;
+	cursor: pointer;
+	margin-bottom: 15px;
+	margin-right: 12px;
+}
+
+.textbox{
+	float: left;
+	border: 1px solid #DBE1EB;
+  	font-size: 15px;
+  	font-family: Arial, Times;
+  	padding-left: 8px;
+  	padding-right: 5px;
+  	padding-top: 8px;
+  	padding-bottom: 8px;
+  	border-radius: 4px;
+  
+}
+
+body div{
+	display: none;
+}
+
+footer h1{
+	border-radius: .3em;
+	font-family: "Arial";
+	font-size: 17px;
+	margin: 1;
+	border: 1;
+	color: #CEF6F5;
+	position: fixed;
+	bottom:0; 
+	z-index:999999;
+	text-align: center;
+	width: 100%;
+
+}

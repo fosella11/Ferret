@@ -1,0 +1,79 @@
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body{
+	background: url("images/fondo.jpg");
+	text-align: center;
+}
+
+h2 {
+	background: url("images/ftitulo.jpg");
+	font-size: 2em;
+	-webkit-margin-before: 0.67em;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	margin-left: -60%;
+	margin-right: -60%;
+	border-radius: .2em;
+	color:white;
+}
+
+
+#leyenda {
+	border: groove;
+	color: white;
+	border-width: 0.5em;
+	background: url("images/ftitulo.jpg");
+	opacity: .9;
+	font-size: 20px;
+	font-family: arial;
+	float: left;
+}
+
+#leyendafiltro{
+	border: groove;
+    border-width: 5px;
+    margin: 5px;
+    background: url("images/ftitulo.jpg");
+    font-family: Times;	
+
+}
+
+#boton{
+	float: right;
+	margin: 5px;
+	border: rgb(#000000);
+	border-width: 5px;
+	color: #151515;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.textbox {
+	float: left;
+	border: 1px solid #DBE1EB;
+	font-size: 15px;
+	font-family: Arial;
+	padding-left: 2px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 4px;
+	margin-bottom: 15%;
+}
+
+#table {
+	text-align: center;
+	float: left;
+}
+
+#code {
+	width: 175%; 
+}
+
+#name{
+	width: 175%;
+}

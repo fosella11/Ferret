@@ -1,0 +1,72 @@
+
+body header{
+	background: url("images/cabezera.png");
+
+}
+
+body{
+	background: url("images/fondo.jpg");
+	text-align: center;
+}
+
+body header {
+	background: #F5FBEF;
+	border-radius: .8em;
+	font-family: "Arial";
+	font-size: 8px;
+	margin: 1;
+	border: 1;
+	text-align: center;
+}
+
+header{
+		background: url("images/fondo.jpg");
+}
+
+body #logear{
+	text-align: center;
+	margin: 25px;
+	heigt: 35px;
+	display: block;
+	font-size: 28px;
+	color: white;
+	background: url("images/ftitulo.jpg");
+	
+}
+
+form input{
+	width: 210px;
+	heigt: 25px;
+	font-size: 22px;
+}
+
+#entrar{
+	border: rgb(#000000);
+	border-width: 5px;
+	color: #151515;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 85px;
+}
+
+footer h1{
+	
+	background: url("images/ftitulo.jpg");
+	border-radius: .3em;
+	font-family: "Arial";
+	font-size: 17px;
+	margin: 1;
+	border: 1;
+	color: #CEF6F5;
+	position: absolute;
+	bottom:0; 
+	z-index:999999;
+	text-align: center;
+	width: 99%;
+	
+}
+
+#ocultar{
+	display: none;
+}
+
